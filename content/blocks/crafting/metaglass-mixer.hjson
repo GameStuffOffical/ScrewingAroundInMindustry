@@ -5,7 +5,6 @@ size: 2
 outputItem: metaglass/20
 consumes: {
     items: [
-      metaglass/1
       sand/5
       lead/5
       metaglass/5
