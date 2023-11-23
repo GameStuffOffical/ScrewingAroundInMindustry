@@ -2,16 +2,15 @@ name: Metaglass Mixer
 description: Efficiently creates meta glass by mixing liquid metaglass with sand and lead.
 type: GenericCrafter
 size: 2
-outputItem: metaglass/3
+outputItem: metaglass/20
 consumes: {
-  items:{
     items: [
       metaglass/1
-      sand/1
-      lead/1
+      sand/5
+      lead/5
+      metaglass/5
     ]
-  }
-  power: 35
+  power: 10
 }
 research: kiln
 category: crafting
