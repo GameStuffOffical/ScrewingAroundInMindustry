@@ -11,5 +11,16 @@ consumes: {
     ]
   power: 10
 }
+
+drawer: {
+      type: drawDefault
+}
+
+Requirements: [
+lead/40
+copper/90
+graphite/40
+]
+
 research: kiln
 category: crafting
