@@ -16,7 +16,7 @@ drawer: {
       type: drawDefault
 }
 
-craftTime: 1
+craftTime: 1.5
 
 Requirements: [
 lead/40
