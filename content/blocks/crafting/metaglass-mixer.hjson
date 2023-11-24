@@ -2,7 +2,7 @@ name: Metaglass Mixer
 description: Efficiently creates meta glass by mixing slag with sand and lead
 type: GenericCrafter
 size: 2
-outputItem: metaglass/4
+outputItem: metaglass/3
 consumes: {
     items: [
       sand/1
