@@ -9,7 +9,7 @@ consumes: {
       lead/1
     ]
   liquids: [
-      slag/.1
+      slag/.5
 ]
   power: 2.5
 }
