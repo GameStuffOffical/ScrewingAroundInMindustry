@@ -7,13 +7,8 @@ outputLiquid: water/0.75
 itemCapacity: 15
 liquidCapacity: 
 consumes: {
-    items: [
-      titanium/1
-    ]
-//   liquids: [
-//     water/0.2
-// ]
-  power/1
+    cryofluid/1
+    power/1
 }
 
 // Crafts 1nce every 2 seconds.
