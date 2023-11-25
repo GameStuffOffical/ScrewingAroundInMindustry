@@ -6,7 +6,7 @@ outputItem: copper/3
 itemCapacity: 15
 consumes: {
     items: [
-      titanium: 1
+      titanium/1
     ]
   liquids: [
     water/0.3
