@@ -8,12 +8,12 @@ itemCapacity: 15
 liquidCapacity: 
 consumes: {
     items: [
-      titanium: 1
+      titanium/1
     ]
 //   liquids: [
-//     water: 0.2
+//     water/0.2
 // ]
-  power: 1
+  power/1
 }
 
 // Crafts 1nce every 2 seconds.
