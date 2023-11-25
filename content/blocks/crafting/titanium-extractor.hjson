@@ -7,7 +7,9 @@ outputLiquid: water/0.75
 itemCapacity: 15
 liquidCapacity: 
 consumes: {
-    cryofluid/1
+    liquids:[
+        cryofluid/1
+    ]
     power/1
 }
 
