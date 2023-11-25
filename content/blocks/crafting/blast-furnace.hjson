@@ -2,12 +2,12 @@ name: Metaglass Mixer
 description: Efficiently creates meta glass with sand and lead. Uses cryofluid as coolant.
 type: GenericCrafter
 size: 3
-outputItem: metaglass/8
+outputItem: metaglass/4
 itemCapacity: 40
 consumes: {
     items: [
-      sand/6
-      lead/6
+      sand/3
+      lead/3
     ]
   liquids: [
     cryofluid/0.1     
@@ -19,7 +19,7 @@ drawer: {
       type: drawDefault
 }
 
-craftTime: 90
+craftTime: 45
 
 Requirements: [
 lead/40
