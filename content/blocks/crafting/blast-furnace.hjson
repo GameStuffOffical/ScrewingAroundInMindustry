@@ -10,7 +10,7 @@ consumes: {
       lead/1
     ]
   liquids: [
-    cryofluid/0.1     
+    slag/0.3
 ]
   power: 4
 }
