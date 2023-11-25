@@ -1,0 +1,30 @@
+name: Example Turret
+type: itemTurret
+ammoPerShot: 6
+inaccuracy: 15
+size: 2
+reload: 60
+targetAir: true
+shootSound: mediumCannon
+recoil: 4
+range: 80
+ammoTypes: {
+  copper:{
+    type: BasicBulletType
+    lifetime: 120
+    speed: 32
+    homingPower:0.1
+    homingRange:160
+  }
+}
+requirements: [
+  beryllium/1500
+  tungsten/800
+  carbide/450
+  azpacite/300
+  phase-fabric/350
+  silicon/900
+]
+category: turret
+research: smite
+research: karst
