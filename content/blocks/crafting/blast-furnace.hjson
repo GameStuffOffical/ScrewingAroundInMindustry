@@ -18,7 +18,15 @@ consumes: {
 craftTime: 45
 
 drawer: {
-      type: drawDefault
+    type: drawMulti
+    drawers: [
+        {
+            type:DrawDefault
+        }
+        {
+            type:DrawFlame
+        }
+    ]
 }
 
 Requirements: [
