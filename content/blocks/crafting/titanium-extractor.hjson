@@ -1,0 +1,42 @@
+name: Titanium Extractor
+description: "Decided you don't want your titanium in your cryofluid? Do you want it back? Use this nifty factory to remove the titanium and recover it. Expels most of the water you spent as well."
+type: GenericCrafter
+size: 2
+outputItem: titanium/1
+outputLiquid: water/0.75
+itemCapacity: 15
+liquidCapacity: 
+consumes: {
+    items: [
+      titanium: 1
+    ]
+//   liquids: [
+//     water: 0.2
+// ]
+  power: 1
+}
+
+// Crafts 1nce every 2 seconds.
+craftTime: 120
+
+// Makes a nice flamey effect.
+// drawer: {
+//     type: drawMulti
+//     drawers: [
+//         {
+//             type:DrawDefault
+//         }
+//         {
+//             type:DrawFlame
+//         }
+//     ]
+// }
+
+Requirements: [
+lead/60
+silicon/40
+titanium/60
+]
+
+research: cryofluid-mixer
+category: crafting
