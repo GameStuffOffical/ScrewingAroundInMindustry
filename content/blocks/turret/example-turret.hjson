@@ -18,13 +18,7 @@ ammoTypes: {
   }
 }
 requirements: [
-  beryllium/1500
-  tungsten/800
-  carbide/450
-  azpacite/300
-  phase-fabric/350
-  silicon/900
+  copper/1
 ]
 category: turret
-research: smite
-research: karst
+research: duo
