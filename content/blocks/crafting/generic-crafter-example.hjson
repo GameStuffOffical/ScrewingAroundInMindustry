@@ -1,0 +1,39 @@
+name: Generic Crafter
+description: "A quite useless crafter used as an example. Takes titanium and outputs copper. Uses water for some reason."
+type: GenericCrafter
+size: 2
+outputItem: copper/3
+itemCapacity: 15
+consumes: {
+    items: [
+      titanium: 1
+    ]
+  liquids: [
+    water/0.3
+]
+  power: 4
+}
+
+// Crafts 1nce per second.
+craftTime: 60
+
+// Makes a nice flamey effect.
+// drawer: {
+//     type: drawMulti
+//     drawers: [
+//         {
+//             type:DrawDefault
+//         }
+//         {
+//             type:DrawFlame
+//         }
+//     ]
+// }
+
+Requirements: [
+copper/10
+titanium/1
+]
+
+research: copper
+category: crafting
