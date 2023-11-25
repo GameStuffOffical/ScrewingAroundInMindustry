@@ -5,7 +5,7 @@ size: 2
 outputItem: titanium/1
 outputLiquid: water/0.75
 itemCapacity: 15
-liquidCapacity: 
+liquidCapacity: 24
 consumes: {
     liquid:{
         liquid:cryofluid
