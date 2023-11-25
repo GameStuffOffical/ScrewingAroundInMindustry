@@ -1,13 +1,13 @@
-name: Metaglass Mixer
+name: Blast Furnace
 description: Efficiently creates meta glass with sand and lead. Uses cryofluid as coolant.
 type: GenericCrafter
 size: 3
-outputItem: metaglass/6
+outputItem: metaglass/3
 itemCapacity: 40
 consumes: {
     items: [
-      sand/2
-      lead/2
+      sand/1
+      lead/1
     ]
   liquids: [
     cryofluid/0.1     
@@ -15,11 +15,11 @@ consumes: {
   power: 4
 }
 
+craftTime: 45
+
 drawer: {
       type: drawDefault
 }
-
-craftTime: 45
 
 Requirements: [
 lead/40
