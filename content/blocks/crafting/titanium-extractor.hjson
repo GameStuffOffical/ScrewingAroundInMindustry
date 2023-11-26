@@ -15,8 +15,8 @@ consumes: {
     power: 1
 }
 
-// Crafts 1nce every 1 seconds.
-craftTime: 60
+// Crafts 1nce every 2 seconds.
+craftTime: 120
 
 drawer: {
     type: DrawMulti
