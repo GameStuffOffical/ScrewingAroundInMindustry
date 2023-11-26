@@ -22,9 +22,6 @@ drawer: [
     type: DrawLiquidRegion
     drawLiquid: cryofluid
   }
-  {
-    type: DrawDefault
-  }
 ]
 
 Requirements: [
