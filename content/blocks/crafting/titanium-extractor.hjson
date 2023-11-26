@@ -17,12 +17,18 @@ consumes: {
 // Crafts 1nce every 2 seconds.
 craftTime: 120
 
-drawer: [
-   {
-    type: DrawLiquidRegion
-    drawLiquid: cryofluid
-  }
-]
+drawer: {
+    type: DrawMulti
+    drawers: [
+        {
+            type: DrawDefault
+        }
+        {
+            type: DrawLiquidRegion
+            drawLiquid: cryofluid
+        }
+    ]
+}
 
 Requirements: [
 lead/60
