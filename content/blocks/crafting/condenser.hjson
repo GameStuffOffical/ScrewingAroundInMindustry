@@ -7,7 +7,7 @@ liquidCapacity: 24
 consumes: {
     liquid:{
         liquid:steam
-        amount:0.2
+        amount:0.1
     }
 }
 
