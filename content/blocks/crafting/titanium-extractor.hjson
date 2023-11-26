@@ -19,11 +19,11 @@ craftTime: 120
 
 drawer: [
    {
-    type: DrawLiquidTile
+    type: DrawLiquidRegion
     drawLiquid: cryofluid
   }
    {
-    type: DrawLiquidTile
+    type: DrawLiquidRegion
     drawLiquid: steam
   }
   {
