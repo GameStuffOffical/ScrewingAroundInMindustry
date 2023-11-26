@@ -1,0 +1,37 @@
+name: Condenser
+description: "Turns steam into water by radiating heat into the enviornment"
+type: GenericCrafter
+size: 2
+outputLiquid: water/0.2
+liquidCapacity: 24
+consumes: {
+    liquid:{
+        liquid:steam
+        amount:2
+    }
+}
+
+// Crafts 1nce every 1 seconds.
+craftTime: 60
+
+// Makes a nice flamey effect.
+// drawer: {
+//     type: drawMulti
+//     drawers: [
+//         {
+//             type:DrawDefault
+//         }
+//         {
+//             type:DrawFlame
+//         }
+//     ]
+// }
+
+Requirements: [
+copper/240
+lead/60
+titanium/40
+]
+
+research: steam
+category: crafting
