@@ -2,17 +2,17 @@ name: Condenser
 description: "Turns steam into water by radiating heat into the enviornment"
 type: GenericCrafter
 size: 2
-outputLiquid: water/0.1
+outputLiquid: water/0.02
 liquidCapacity: 24
 consumes: {
     liquid:{
         liquid:steam
-        amount:1
+        amount:0.2
     }
 }
 
 // Crafts 1nce every 1 seconds.
-craftTime: 600
+craftTime: 60000000
 
 // Makes a nice flamey effect.
 // drawer: {
