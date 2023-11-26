@@ -3,13 +3,13 @@ description: "Decided you don't want your titanium in your cryofluid? Do you wan
 type: GenericCrafter
 size: 2
 outputItem: titanium/1
-outputLiquid: water/0.75
+outputLiquid: water/0.15
 itemCapacity: 15
 liquidCapacity: 24
 consumes: {
     liquid:{
         liquid:cryofluid
-        amount:1
+        amount:0.2
     }
     power: 1
 }
