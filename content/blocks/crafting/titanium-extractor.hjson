@@ -27,7 +27,7 @@ drawer: {
         {
             type: DrawLiquidRegion
             drawLiquid: cryofluid
-            suffix: "liquid-cryofluid"
+            suffix: "-liquid-cryofluid"
         }
         {
             type: DrawDefault
@@ -35,7 +35,7 @@ drawer: {
         {
             type: DrawLiquidRegion
             drawLiquid: steam
-            suffix: "liquid-steam"
+            suffix: "-liquid-steam"
         }
     ]
 }
