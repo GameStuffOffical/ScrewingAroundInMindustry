@@ -1,5 +1,5 @@
 name: Titanium Extractor
-description: "Decided you don't want your titanium in your cryofluid? Do you want it back? Use this nifty factory to remove the titanium and recover it. Returns water in the form of steam."
+description: "Decided you don't want your titanium in your cryofluid? Do you want it back? Use this nifty factory to extract the titanium and recover it. 100% Return Rate! Returns water in the form of steam."
 type: GenericCrafter
 size: 2
 outputItem: titanium/1
@@ -21,10 +21,6 @@ drawer: [
    {
     type: DrawLiquidRegion
     drawLiquid: cryofluid
-  }
-   {
-    type: DrawLiquidRegion
-    drawLiquid: steam
   }
   {
     type: DrawDefault
