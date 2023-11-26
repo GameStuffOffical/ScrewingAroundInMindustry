@@ -17,18 +17,19 @@ consumes: {
 // Crafts 1nce every 2 seconds.
 craftTime: 120
 
-// Makes a nice flamey effect.
-// drawer: {
-//     type: drawMulti
-//     drawers: [
-//         {
-//             type:DrawDefault
-//         }
-//         {
-//             type:DrawFlame
-//         }
-//     ]
-// }
+drawer: [
+   {
+    type: DrawLiquidTile
+    drawLiquid: cryofluid
+  }
+   {
+    type: DrawLiquidTile
+    drawLiquid: steam
+  }
+  {
+    type: DrawDefault
+  }
+]
 
 Requirements: [
 lead/60
