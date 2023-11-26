@@ -7,7 +7,7 @@ liquidCapacity: 24
 consumes: {
     liquid:{
         liquid:water
-        amount:0.01
+        amount:0.02
     }
 }
 
