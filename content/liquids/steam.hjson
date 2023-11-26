@@ -1,0 +1,11 @@
+name: Steam
+description: A heated version of water. It has been heated so much to the point it has become a gas.
+gas: true
+color: F7FBFF
+gasColor: FFFFFF
+flammability: 0
+temperature: 0.75
+heatCapacity: 0.2
+viscosity: 0.1
+explosiveness: 0
+research: water
