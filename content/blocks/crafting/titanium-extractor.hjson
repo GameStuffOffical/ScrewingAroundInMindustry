@@ -12,7 +12,7 @@ consumes: {
         liquid:cryofluid
         amount:0.2
     }
-    power: 1
+    power: 2
 }
 
 // Crafts 1nce every 2 seconds.
