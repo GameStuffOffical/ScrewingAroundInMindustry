@@ -11,7 +11,7 @@ consumes: {
         amount:1
     }
 }
-powerProduction:3
+powerProduction:6
 
 
 
