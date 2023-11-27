@@ -18,10 +18,10 @@ powerProduction:6
 
 
 Requirements: [
-copper/20
-lead/40
-silicon/50
-metaglass/70
+copper/300
+lead/150
+silicon/250
+metaglass/160
 ]
 
 research: solar-evaporator
