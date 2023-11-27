@@ -35,8 +35,8 @@ drawer: {
 
 Requirements: [
 copper/70
-silicon/30
-metaglass/60
+silicon/100
+metaglass/120
 ]
 
 research: steam
