@@ -2,13 +2,13 @@ name: Solar Evaporator
 description: "Uses the sun's heat to turn water into steam. Does not work at night."
 type: GenericCrafter
 size: 3
-outputLiquid: steam/0.25
+outputLiquid: steam/0.5
 liquidCapacity: 48
 hasLiquids: true
 consumes: {
     liquid:{
         liquid:water
-        amount:0.05
+        amount:0.1
     }
 }
 

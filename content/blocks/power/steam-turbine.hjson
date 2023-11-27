@@ -21,7 +21,8 @@ Requirements: [
 copper/300
 lead/150
 silicon/250
-metaglass/160
+metaglass/50
+titanium/30
 ]
 
 research: solar-evaporator
