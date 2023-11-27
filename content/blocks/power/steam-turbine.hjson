@@ -2,13 +2,13 @@ name: Steam Turbine
 description: "Uses large amounts of steam to generate power. Outputs a little water."
 type: ConsumeGenerator
 size: 3
-outputLiquid: water/0.04
+outputLiquid: water/0.1
 liquidCapacity: 60
 hasLiquids: true
 consumes: {
     liquid:{
         liquid:steam
-        amount:2
+        amount:1
     }
 }
 powerProduction:3
