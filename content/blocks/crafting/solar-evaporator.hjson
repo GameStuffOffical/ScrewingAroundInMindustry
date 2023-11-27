@@ -1,37 +1,26 @@
 name: Solar Evaporator
-description: "Uses the power of the sun to evaporate water into steam"
+description: "Uses the sun's heat to turn water into steam."
 type: GenericCrafter
-size: 3
-outputLiquid: steam/0.1
+size: 2
+attribute: light
+outputLiquid: steam/0.4
 liquidCapacity: 24
 consumes: {
     liquid:{
         liquid:water
-        amount:0.02
+        amount:0.08
     }
 }
 
 // Crafts 1nce every 1 seconds.
 craftTime: 60
 
-// Makes a nice flamey effect.
-// drawer: {
-//     type: drawMulti
-//     drawers: [
-//         {
-//             type:DrawDefault
-//         }
-//         {
-//             type:DrawFlame
-//         }
-//     ]
-// }
 
 Requirements: [
-copper/120
-metaglass/40
+copper/70
+lead/60
 titanium/40
 ]
 
-research: water
+research: steam
 category: crafting
