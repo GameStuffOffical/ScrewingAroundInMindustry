@@ -1,6 +1,6 @@
 name: Steam Turbine
 description: "Uses large amounts of steam to generate power. Outputs a little water."
-type: PowerGenerator
+type: ConsumeGenerator
 size: 3
 outputLiquid: water/0.01
 liquidCapacity: 60
