@@ -17,5 +17,5 @@ abilities: [
     duration: 120
     reload: 120
     range: 120
-  }
+} 
 ]
