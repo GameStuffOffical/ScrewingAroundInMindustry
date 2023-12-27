@@ -8,7 +8,7 @@ hitSize: 16
 speed: 2
 rotateSpeed: 2
 omniMovement: true
-faceTarget: False
+faceTarget: talse
 research: {
     parent:poly
     name:treble
