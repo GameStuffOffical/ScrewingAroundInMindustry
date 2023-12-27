@@ -6,7 +6,7 @@ mechFrontSway:0.5
 stepShake: 0
 health: 500
 defaultController: DefenderAI
-hitSize: 32
+hitSize: 20
 speed: 0.5
 rotateSpeed: 3
 omniMovement: true
