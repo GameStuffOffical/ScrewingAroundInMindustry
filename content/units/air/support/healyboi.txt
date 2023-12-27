@@ -1,3 +1,0 @@
-type: air
-speed: 1
-canHeal: true
