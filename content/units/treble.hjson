@@ -9,12 +9,12 @@ rotateSpeed: 2
 omniMovement: true
 faceTarget: false
 research: poly
-abilities: [
-  {
-    type: StatusFieldAbility
-    effect: vibin
-    duration: 120
-    reload: 120
-    range: 120
-  } 
-]
+// abilities: [
+//  {
+//    type: StatusFieldAbility
+//    effect: vibin
+//    duration: 120
+//    reload: 120
+//    range: 120
+//  } 
+//]
