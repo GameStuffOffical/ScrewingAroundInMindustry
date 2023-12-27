@@ -1,20 +1,20 @@
 name: Treble
 description: A sonicaly charged unit that periodicaly sends out waves of unit boosting sound.
 type: mech
-health: 200
+health: 500
 defaultController: DefenderAI
 hitSize: 16
-speed: 2
-rotateSpeed: 2
+speed: 1
+rotateSpeed: 3
 omniMovement: true
 faceTarget: false
 research: poly
-// abilities: [
-//  {
-//    type: StatusFieldAbility
-//    effect: vibin
-//    duration: 120
-//    reload: 120
-//    range: 120
-//  } 
-//]
+ abilities: [
+  {
+    type: StatusFieldAbility
+    effect: vibin
+    duration: 120
+    reload: 120
+    range: 120
+  } 
+]
