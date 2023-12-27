@@ -1,4 +1,4 @@
-name: Trebel
+name: Treble
 description: A sonicaly charged unit that periodicaly sends out waves of unit boosting sound.
 type: mech
 flying: false
@@ -9,7 +9,11 @@ speed: 2
 rotateSpeed: 2
 omniMovement: true
 faceTarget: False
-research: poly
+research: {
+    parent:poly
+    name:treble
+    planet:serpulo
+}
 abilities: [
   {
     type: StatusFieldAbility
@@ -17,5 +21,5 @@ abilities: [
     duration: 120
     reload: 120
     range: 120
-} 
+  } 
 ]
