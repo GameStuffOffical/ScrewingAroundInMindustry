@@ -1,5 +1,5 @@
 name: Reverbium Alloy Wall
-description: A stronger wall that releases shocks.
+description: A stronger wall that releases shocks. Stores energy before releasing it in a big shock.
 type: wall
 size: 1
 // Health will scale depending on size of the block.
@@ -36,8 +36,8 @@ category: defense
 // Do -1 to turn of certain things.
 // default -1
 //Chance ranges from -1 to 1. -1 means its off and 1 means 100% chance. 0.5 would be 50%
-lightningChance: 0.5
-lightningDamage: 20
+lightningChance: 0.1
+lightningDamage: 200
 lightningLength: 15
 lightningColor: ff4444ff
 lightningSound: shotgun
