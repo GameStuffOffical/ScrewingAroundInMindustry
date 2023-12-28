@@ -1,4 +1,4 @@
-name: Sonicite
+name: Sonicite Wall
 description: A fragile wall that emits dangerous shocks.
 type: wall
 size: 1
@@ -37,7 +37,7 @@ category: defense
 // default -1
 //Chance ranges from -1 to 1. -1 means its off and 1 means 100% chance. 0.5 would be 50%
 lightningChance: 1
-lightningDamage: 20
+lightningDamage: 10
 lightningLength: 15
 lightningColor: ff4444ff
 lightningSound: shotgun
