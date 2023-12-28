@@ -1,7 +1,7 @@
 name: Sonicite
-description: Sonicaly charged ore. Chemicaly similar to vibranium. Used in sound technologies.
+description: Sonicaly charged ore. Chemicaly similar to vibranium. Used in sound technologies. Beware when storing sonicite; Sonicite has a large charge potential and will violently erupt when disturbed.
 color: ff0000ff
-explosiveness: 1
+explosiveness: 0.5
 flammabilty: 0
 radioactivity: 0
-charge: 1.5
+charge: 2

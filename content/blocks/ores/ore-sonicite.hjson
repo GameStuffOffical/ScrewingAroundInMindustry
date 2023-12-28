@@ -1,3 +1,4 @@
 type: OreBlock
 itemDrop: sonicite
+variants: 4
 hardness: 3
