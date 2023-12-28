@@ -1,0 +1,47 @@
+name: Sonicite
+description: A fragile wall that emits dangerous shocks.
+type: wall
+size: 1
+// Health will scale depending on size of the block.
+scaledHealth: 440
+
+// Can power nodes connect to this block.
+connectedPower: false
+// Can block conduct power?
+conductivePower: false
+// Does block store power?
+hasPower: false
+
+solid: true
+
+// Resorces needed to build block. 
+requirements: [
+  sonicite/10
+  silicon/3
+]
+
+// Research is what is needed to research block in tech tree.
+research: {
+  // What the block is connected to
+  parent: titanium-wall
+  // What needs to be researched so the block can be researched. Is not connedcted to this block.
+  objectives: [
+    sonicite
+  ]
+}
+
+// Category block will show up in the block slection menu.
+category: defense
+
+// Values special to walls. These are all the defalt values unless specified.
+// Do -1 to turn of certain things.
+// default -1
+//Chance ranges from -1 to 1. -1 means its off and 1 means 100% chance. 0.5 would be 50%
+lightningChance: 1
+lightningDamage: 20
+lightningLength: 25
+lightningColor: ff4444ff
+lightningSound: shotgun
+//default -1
+chanceDeflect: 0
+// deflectSound: none
