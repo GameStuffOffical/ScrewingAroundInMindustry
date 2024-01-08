@@ -1,24 +1,25 @@
-name: Example Turret
+name: Crawler Gun
 type: itemTurret
-ammoPerShot: 6
-inaccuracy: 5
-size: 2
-reload: 60
-targetAir: true
+ammoPerShot: 3
+inaccuracy: 0
+size: 5
+reload: 240
+targetAir: false
 shootSound: mediumCannon
-recoil: 4
-range: 80
+recoil: 5
+range: 160
 ammoTypes: {
-  copper:{
+  silicon: {
     type: BasicBulletType
     lifetime: 120
     speed: 8
     homingPower:0.1
     homingRange:160
+    despawnUnit
   }
 }
 requirements: [
   copper/1
 ]
 category: turret
-research: duo
+research: mass-driver
