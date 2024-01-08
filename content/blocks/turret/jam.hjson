@@ -1,7 +1,7 @@
 name: Jam
 type: itemTurret
 ammoPerShot: 3
-inaccuracy: 10
+inaccuracy: 20
 size: 3
 reload: 60
 targetAir: false
@@ -22,7 +22,7 @@ ammoTypes: {
     type: BasicBulletType
     lifetime: 240
     speed: 4
-    homingPower:0.2
+    homingPower:0.1
     homingRange:160
   }
 }
