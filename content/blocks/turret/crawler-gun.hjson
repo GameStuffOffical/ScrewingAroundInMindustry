@@ -15,7 +15,7 @@ ammoTypes: {
     speed: 8
     homingPower:0.1
     homingRange:160
-    despawnUnit
+    despawnUnit: crawler
   }
 }
 requirements: [
