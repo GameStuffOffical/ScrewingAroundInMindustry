@@ -23,6 +23,7 @@ ammoTypes: {
     speed: 4
     homingPower:0.2
     homingRange:160
+    damage: 200
   }
 }
 requirements: [
