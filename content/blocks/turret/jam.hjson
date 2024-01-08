@@ -13,6 +13,7 @@ shoot: {
 }
 
 pierceBuilding: true
+pierce:true
 pierceCap: 30
 
 ammoTypes: {
@@ -20,7 +21,7 @@ ammoTypes: {
     type: BasicBulletType
     lifetime: 240
     speed: 4
-    homingPower:1
+    homingPower:0.2
     homingRange:160
   }
 }
