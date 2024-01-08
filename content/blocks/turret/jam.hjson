@@ -1,0 +1,31 @@
+name: Jam
+type: itemTurret
+ammoPerShot: 3
+inaccuracy: 10
+size: 3
+reload: 60
+targetAir: false
+shootSound: mediumCannon
+recoil: 5
+range: 320
+shoot: {
+  shots: 3
+}
+
+pierceBuilding: true
+pierceCap: 30
+
+ammoTypes: {
+  silicon: {
+    type: BasicBulletType
+    lifetime: 240
+    speed: 4
+    homingPower:1
+    homingRange:160
+  }
+}
+requirements: [
+  copper/1
+]
+category: turret
+research: ripple
